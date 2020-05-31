@@ -1,4 +1,4 @@
-<p align="center"><img src="http://www.pedalpowergym.site/storage/settings/May2020/Zg6Scb2ao3kwkDZDe5aZ.png" width="400"></p>
+<p align="center"><img src="http://www.pedalpowergym.site/storage/settings/May2020/Zg6Scb2ao3kwkDZDe5aZ.png" width="120"></p>
 
 ## Pedal Power Gym 
 

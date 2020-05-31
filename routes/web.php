@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
+use TCG\Voyager\Facades\Voyager;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,9 +23,10 @@ Route::get('/login', function(){
     return view('login');
 });
 
-    // Route::get('/register', function(){
-    //     return view('register');
-    // });
+Route::get('/clear-cache', function() {
+    Artisan::call('cache:clear');
+    return "Cache is cleared";
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
